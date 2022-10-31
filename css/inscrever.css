@@ -1,11 +1,9 @@
 .inscrever{
   background: linear-gradient(blue, skyblue);
-color: #f5f5f5;
+  color: #f5f5f5;
 }
 
-.inscrever button{
-gap: 50px;
-}
+
 
 .inscrever-container{
   max-width: 1200px;
@@ -13,13 +11,14 @@ gap: 50px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 50px;
+  gap: 100px;
   position: relative;
 }
 
 .subtitulo-inscrever {
   font-size: 4rem;
 }
+
 
 .inscrever li{
   margin: 15px;
@@ -41,7 +40,6 @@ font-style: italic;
 .inscrever li{
   font-size: 1.5rem;
 }
-
 }
 
 @media (max-width: 600px){

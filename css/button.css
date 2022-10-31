@@ -1,6 +1,6 @@
 .wrap {
   height: 100%;
-  display: flex;
+  
   align-items: center;
   justify-content: center;
 
@@ -157,5 +157,15 @@ button:hover::after, button:focus::after {
     width: 300px;
     height: 300px;
     opacity: 0;
+  }
+}
+@media (max-width: 800px){
+  .button {
+    min-width: 150px;
+    font-size: 14px;
+  }
+  .button-inscrever {
+    min-width: 150px;
+    font-size: 14px;
   }
 }
