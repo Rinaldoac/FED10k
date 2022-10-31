@@ -1,0 +1,51 @@
+.inscrever{
+  background: linear-gradient(blue, skyblue);
+color: #f5f5f5;
+}
+
+.inscrever button{
+gap: 50px;
+}
+
+.inscrever-container{
+  max-width: 1200px;
+  padding: 120px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  position: relative;
+}
+
+.subtitulo-inscrever {
+  font-size: 4rem;
+}
+
+.inscrever li{
+  margin: 15px;
+  font-size: 2rem;
+  color: #f5f5f5;
+}
+
+.inscrever a{
+color: black;
+text-decoration: none;
+font-style: italic;
+}
+
+@media (max-width: 800px){
+
+.subtitulo-inscrever{
+  font-size: 2.5rem;
+}
+.inscrever li{
+  font-size: 1.5rem;
+}
+
+}
+
+@media (max-width: 600px){
+  .inscrever-container{
+    grid-template-columns: 1fr;
+  }
+}

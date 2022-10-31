@@ -30,6 +30,7 @@
 .introducao p {
   font-size: 1.5rem;
   color: #525252;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 1000px) {
@@ -58,7 +59,7 @@
     grid-template-columns: 1fr;
     font-size: 1rem;
   }
-  .introducao img {
-    display: none;
-  }
+.introducao img{
+  padding: 20px;
+}
 }

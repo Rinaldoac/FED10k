@@ -1,6 +1,8 @@
 @import "./global.css";
 @import "./header.css";
 @import "./introducao.css";
-@import "./experiencia.css";
-@import "./formacao.css";
+@import "./conteudo.css";
+@import "./sobre.css";
 @import "./footer.css";
+@import "./inscrever.css";
+@import "./button.css"

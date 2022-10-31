@@ -30,9 +30,21 @@ img {
   word-break: break-all;
   max-width: 2ch;
 }
+.subtitulo-sobre {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
 
 @media (max-width: 800px) {
   .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+  .subtitulo-sobre {
     font-size: 3rem;
     text-transform: capitalize;
     max-width: initial !important;
