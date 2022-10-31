@@ -161,11 +161,11 @@ button:hover::after, button:focus::after {
 }
 @media (max-width: 800px){
   .button {
-    min-width: 170px;
+    min-width: fit-content;
     font-size: 14px;
   }
   .button-inscrever {
-    min-width: 170px;
+    min-width: fit-content;
     font-size: 14px;
   }
 }
