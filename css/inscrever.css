@@ -47,4 +47,7 @@ font-size: 1.5 rem;
   .inscrever-container{
     grid-template-columns: 1fr;
   }
+  .subtitulo-inscrever{
+    font-size: 2rem;
+  }
 }
